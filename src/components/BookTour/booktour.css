@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+.add-service form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.add-service form input,
+textarea {
+  width: 40%;
+  margin: 10px;
+}
+.book-img {
+  margin-left: 30%;
+  margin-right: 50%;
+}
+.book-img-extra {
+  margin-left: 30%;
+  margin-right: 50%;
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .book-tour-name {
+    width: 50%;
+  }
+  .book-img-extra {
+    width: 50%;
+  }
+  .overflow-handle {
+    overflow-x: hidden;
+  }
+}
